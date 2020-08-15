@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "245568387349",
+    "firebase_url": "https://memorize-c75fc.firebaseio.com",
+    "project_id": "memorize-c75fc",
+    "storage_bucket": "memorize-c75fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245568387349:android:d11399d48822b5a9de111c",
+        "android_client_info": {
+          "package_name": "com.dymaxion.memorize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245568387349-l7cq5kuho1am7k92eufhv0uk2n63bi46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dymaxion.memorize",
+            "certificate_hash": "1acb7d6914916ae6d77add0f0c7915c400bdf09c"
+          }
+        },
+        {
+          "client_id": "245568387349-lal99gh5hudvviqdcn32to27afodijsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqS0UXnObyQ7WwYILJaIpfVuD8jcBUfcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245568387349-lal99gh5hudvviqdcn32to27afodijsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245568387349-e81bbp0kl4p4v67m1gcjrbobof8uap0m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dymaxion.memorize"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

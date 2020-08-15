@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>245568387349-e81bbp0kl4p4v67m1gcjrbobof8uap0m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.245568387349-e81bbp0kl4p4v67m1gcjrbobof8uap0m</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>245568387349-l7cq5kuho1am7k92eufhv0uk2n63bi46.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC7nPB5djR6r9OkZIcHLUSRMc14gUvdR3M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>245568387349</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dymaxion.memorize</string>
+	<key>PROJECT_ID</key>
+	<string>memorize-c75fc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>memorize-c75fc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:245568387349:ios:8f6f409833ec90abde111c</string>
+	<key>DATABASE_URL</key>
+	<string>https://memorize-c75fc.firebaseio.com</string>
+</dict>
+</plist>
