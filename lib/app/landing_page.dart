@@ -14,9 +14,27 @@ class LandingPage extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.active) {
             User user = snapshot.data;
             if (user == null) {
-              return SignInPage();
+              return LayoutBuilder(
+                builder: (BuildContext context, BoxConstraints constraints) {
+                  double width = (constraints.maxWidth - 480) > 0
+                      ? (constraints.maxWidth - 480) / 2
+                      : 0;
+                  return Container(
+                      padding: EdgeInsets.symmetric(horizontal: width),
+                      child: SignInPage());
+                },
+              );
             }
-            return HomePage();
+            return LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints) {
+                double width = (constraints.maxWidth - 480) > 0
+                    ? (constraints.maxWidth - 480) / 2
+                    : 0;
+                return Container(
+                    padding: EdgeInsets.symmetric(horizontal: width),
+                    child: HomePage());
+              },
+            );
           } else {
             return Scaffold(
               body: Center(

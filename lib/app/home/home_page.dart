@@ -8,36 +8,37 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoTabScaffold(
-        tabBar: CupertinoTabBar(
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.folder),
-              label: "Coleções",
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.play_arrow),
-              label: "Treinamento",
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              label: "Configurações",
-            ),
-          ],
-        ),
-        tabBuilder: (context, i) {
-          switch (i) {
-            case 0:
-              return CollectionsPage();
-              break;
-            case 1:
-              return TrainingPage();
-              break;
-            case 2:
-              return SettingsPage();
-              break;
-            default:
-              return CircularProgressIndicator();
-          }
-        });
+      tabBar: CupertinoTabBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.folder),
+            label: "Coleções",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.play_arrow),
+            label: "Treinamento",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: "Configurações",
+          ),
+        ],
+      ),
+      tabBuilder: (context, i) {
+        switch (i) {
+          case 0:
+            return CollectionsPage();
+            break;
+          case 1:
+            return TrainingPage();
+            break;
+          case 2:
+            return SettingsPage();
+            break;
+          default:
+            return CircularProgressIndicator();
+        }
+      },
+    );
   }
 }
